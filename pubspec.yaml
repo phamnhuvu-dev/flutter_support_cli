@@ -9,6 +9,8 @@ environment:
 
 dependencies:
   recase: ^2.0.1
+  meta: ^1.1.7
+  args: ^1.5.1
 #  path: ^1.4.1
 
 dev_dependencies:
