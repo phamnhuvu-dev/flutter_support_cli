@@ -1,5 +1,5 @@
-import 'package:flutter_template_cli/build_widget/build_list.dart';
-import 'package:flutter_template_cli/build_widget/build_widget.dart';
+import 'package:flutter_template_cli/build_file/build_list.dart';
+import 'package:flutter_template_cli/build_file/build_widget.dart';
 import 'package:flutter_template_cli/flutter_template_cli.dart'
     as flutter_template_cli;
 import 'dart:io';

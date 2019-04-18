@@ -12,7 +12,7 @@ String getItemBody(String nameModel) {
   return """
   final $pascal $camel;
   
-  const ItemCardWidget({
+  const Item${pascal}Widget({
     Key key,
     this.$camel,
   }) : super(key: key);
@@ -32,11 +32,19 @@ String getListBody(String nameModel) {
   ReCase reCase = ReCase(nameModel);
   String pascal = reCase.pascalCase;
   String camel = reCase.camelCase;
+  String nameBloc = "${camel}Bloc";
   return """
+  final ${pascal}Bloc $nameBloc;
+  
+  const List${pascal}Widget({
+    Key key,
+    this.$nameBloc,
+  }) : super(key: key);
+  
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<List<${pascal}>>(
-      stream: ${camel}Bloc.${camel}sStream,
+      stream: $nameBloc.${camel}sStream,
       builder: (
         BuildContext context,
         AsyncSnapshot<List<${pascal}>> asyncSnapshot,

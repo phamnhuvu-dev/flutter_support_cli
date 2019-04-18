@@ -1,4 +1,3 @@
-A sample command-line application.
+This library just supports for personal target
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+You can use it if match with your demant.
