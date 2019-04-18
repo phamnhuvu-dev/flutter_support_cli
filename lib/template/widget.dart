@@ -1,23 +1,24 @@
 import 'package:flutter_template_cli/template/class.dart';
 
-String import = "package:flutter/material.dart";
-String build = """
+const String import = "package:flutter/material.dart";
+const String buildBody = """
   @override
   Widget build(BuildContext context) {
     return Container();
   }
 """;
 
-String getStatelessWidget(String name) {
+
+String getStatelessWidget(String name, {String body = buildBody}) {
   return getClass(
     import: import,
     name: name,
     extend: "StatelessWidget",
-    body: build,
+    body: body,
   );
 }
 
-String getStatefulWidget(String name) {
+String getStatefulWidget(String name, {String buildBody = buildBody}) {
   String stateful = "StatefulWidget";
 
   String widget = getClass(
@@ -33,7 +34,7 @@ String getStatefulWidget(String name) {
   String state = getClass(
     name: "_${name}State",
     extend: "State<$name>",
-    body: build,
+    body: buildBody,
   );
   return "$widget\n$state";
 }
