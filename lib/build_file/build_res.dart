@@ -17,6 +17,9 @@ void buildSyncResource(String rootPath) {
   buildImages(rootPath);
   buildColors(rootPath);
   buildFonts(rootPath);
+
+  Directory.current = rootPath;
+  Process.runSync('flutter', ["--no-color", "packages", "get"]);
 }
 
 void buildImages(String rootPath) {
