@@ -1,6 +1,6 @@
-import 'package:flutter_template_cli/template/class.dart';
+import 'package:flutter_support_cli/template/class.dart';
 
-const String import = "package:flutter/material.dart";
+const String import = "import 'package:flutter/material.dart';";
 const String buildBody = """
   @override
   Widget build(BuildContext context) {

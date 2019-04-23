@@ -9,3 +9,25 @@ build/
 
 # Directory created by dartdoc
 doc/api/
+res/colors.json
+res/fonts/RobotoCondensed-Bold.ttf
+res/fonts/RobotoCondensed-BoldItalic.ttf
+res/fonts/RobotoCondensed-Italic.ttf
+res/fonts/RobotoCondensed-Light.ttf
+res/fonts/RobotoCondensed-LightItalic.ttf
+res/fonts/RobotoCondensed-Regular.ttf
+res/fonts/SourceSansPro-Black.ttf
+res/fonts/SourceSansPro-BlackItalic.ttf
+res/fonts/SourceSansPro-Bold.ttf
+res/fonts/SourceSansPro-BoldItalic.ttf
+res/fonts/SourceSansPro-ExtraLight.ttf
+res/fonts/SourceSansPro-ExtraLightItalic.ttf
+res/fonts/SourceSansPro-Italic.ttf
+res/fonts/SourceSansPro-Light.ttf
+res/fonts/SourceSansPro-LightItalic.ttf
+res/fonts/SourceSansPro-Regular.ttf
+res/fonts/SourceSansPro-SemiBold.ttf
+res/fonts/SourceSansPro-SemiBoldItalic.ttf
+res/images/test_1.jpg
+res/images/test_2.jpg
+res/images/test_3.jpg

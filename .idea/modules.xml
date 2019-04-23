@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/flutter_template_cli.iml" filepath="$PROJECT_DIR$/.idea/flutter_template_cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/flutter_support_cli.iml" filepath="$PROJECT_DIR$/.idea/flutter_support_cli.iml" />
     </modules>
   </component>
 </project>

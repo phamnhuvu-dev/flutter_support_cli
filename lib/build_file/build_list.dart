@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_template_cli/template/list.dart';
+import 'package:flutter_support_cli/template/list.dart';
 import 'package:recase/recase.dart';
 
 void buildListWidget(String name) {

@@ -1,4 +1,4 @@
-import 'package:flutter_template_cli/template/widget.dart';
+import 'package:flutter_support_cli/template/widget.dart';
 import 'package:recase/recase.dart';
 
 import 'dart:io';
