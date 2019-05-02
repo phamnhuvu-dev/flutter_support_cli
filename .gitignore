@@ -31,3 +31,5 @@ res/fonts/SourceSansPro-SemiBoldItalic.ttf
 res/images/test_1.jpg
 res/images/test_2.jpg
 res/images/test_3.jpg
+res/localizations/en.json
+res/localizations/vi.json

@@ -9,14 +9,12 @@ String getClass({
   String body = "",
 }) {
   String abstract = "";
-  import = import.isNotEmpty ?  "$import\n\n" : "";
+  import = import.isNotEmpty ?  "$import\n" : "";
   extend = extend.isNotEmpty ? " extends $extend": "";
   implement = implement.isNotEmpty ? " implements $extend": "";
 
   return """
 $import${abstract}class $name$extend$implement {
-
 $body
-}
-""";
+}""";
 }
