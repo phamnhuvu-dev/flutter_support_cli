@@ -47,16 +47,17 @@ main(List<String> arguments) {
     ..addCommand(makeListWidget, mklwget);
 
   argResults = parser.parse(arguments);
-
   switch (argResults.command.name) {
     case makeWidget:
-      assert(argResults[name] != "");
-      buildWidget(name: argResults[name], isStateful: argResults[stateFull]);
+      final argResultsMakeWidget = mkwget.parse(arguments);
+      assert(argResultsMakeWidget[name] != "");
+      buildWidget(name: argResultsMakeWidget[name], isStateful: argResultsMakeWidget[stateFull]);
       break;
 
     case makeListWidget:
-      assert(argResults[name] != "");
-      buildListWidget(argResults[name]);
+      final argResultsMakeListWidget = mklwget.parse(arguments);
+      assert(argResultsMakeListWidget[name] != "");
+      buildListWidget(argResultsMakeListWidget[name]);
       break;
 
     case syncResource:

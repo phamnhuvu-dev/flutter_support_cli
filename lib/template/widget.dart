@@ -5,8 +5,7 @@ const String buildBody = """
   @override
   Widget build(BuildContext context) {
     return Container();
-  }
-""";
+  }""";
 
 
 String getStatelessWidget(String name, {String body = buildBody}) {
@@ -27,8 +26,7 @@ String getStatefulWidget(String name, {String buildBody = buildBody}) {
     extend: stateful,
     body: """
   @override
-  _${name}State createState() => _${name}State();
-""",
+  _${name}State createState() => _${name}State();""",
   );
 
   String state = getClass(
@@ -36,5 +34,5 @@ String getStatefulWidget(String name, {String buildBody = buildBody}) {
     extend: "State<$name>",
     body: buildBody,
   );
-  return "$widget\n$state";
+  return "$widget\n\n$state";
 }
